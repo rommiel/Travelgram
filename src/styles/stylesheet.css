@@ -1,0 +1,150 @@
+
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: billabong, 'billabongregular';
+    text-align: center;
+    font-size: 13rem;
+    font-weight: 100;
+    margin: 2rem 0;
+    letter-spacing: -1px;
+    color: black;
+    
+}
+
+/* not a font installed in our machine. 
+we need to declare it using @font-face
+allows to grab font from an online source */
+
+@font-face {
+    font-family: 'billabongregular';
+    src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot");
+    src: url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix") format('embedded-opentype'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff") format('woff'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf") format('truetype'), url("https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular") format('svg');
+}
+
+.photo-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    
+    flex-wrap: wrap;
+    /* breakthrough multiple lines if needed maintaing it's width */
+
+    }
+
+.photofigure {
+    flex-basis: calc(33.333% - 4rem);
+    border: 1px solid #d3d3d3;
+    padding: 2rem;
+    
+    flex-grow: 1;
+    /* all elements on the same row will share same width */
+
+    margin: 0 2rem 2rem 2rem;
+}
+
+.photo {
+       width: calc(100% + 4rem);
+       height: 420px;
+       margin: -2rem 0rem 0rem -2rem;
+       fit: scale;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.remove-button {
+    flex-basis: 40%;
+    /* 40% of the container width */
+
+    color: #970747;
+    font-size: 15px;
+    /* border: 2px solid #f2f2f2; */
+    border: none;
+    line-height: 2;
+    padding: 5px;
+    background: #f3f3f3;
+}
+
+.addIcon {
+    /* centering the button */
+    margin: 20px auto;
+    display: table;
+    padding: 40px;
+    background: url("https://image.flaticon.com/icons/svg/60/60740.svg") center no-repeat;
+
+    /* contain does is scale the image to the extent of our button as much as possible without cropping or stretching the image. */
+    background-size: contain;
+    
+    border: none;
+    
+}
+
+.form {
+    /* background: red; */
+    max-width: 360px;
+    
+    /* to center element in its axis */
+    margin: 0 auto;
+
+    padding: 45px;
+
+    /* align content of the div to the center */
+    text-align: center;
+}
+
+/* 
+modify input inside the div */
+.form input {
+    font-family: sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    border: none;
+    padding: 15px;
+
+    /* default is content box
+    width equal whatever you specify plus the padding
+    border-box:width stays as is including the extra padding */
+    box-sizing: border-box;
+
+    font-size: 14px;
+    margin: 0 0 15px;
+    color: #113f67;
+}
+
+.form input:hover {
+    border: 2px solid #5c94bd;
+    background: white;
+    cursor: pointer;
+    
+}
+
+.post-button {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    font-family: sans-serif;
+    background: #113f67;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.post-button:hover {
+    background: #226597;
+}
+
+#round-button {
+    color: #113f67;
+}
