@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/rommiel/Travelgram.git/static/css/main.4b5c3934.chunk.css",
-    "main.js": "/rommiel/Travelgram.git/static/js/main.23595111.chunk.js",
-    "main.js.map": "/rommiel/Travelgram.git/static/js/main.23595111.chunk.js.map",
-    "runtime-main.js": "/rommiel/Travelgram.git/static/js/runtime-main.61bd33fa.js",
-    "runtime-main.js.map": "/rommiel/Travelgram.git/static/js/runtime-main.61bd33fa.js.map",
-    "static/js/2.ff830c0b.chunk.js": "/rommiel/Travelgram.git/static/js/2.ff830c0b.chunk.js",
-    "static/js/2.ff830c0b.chunk.js.map": "/rommiel/Travelgram.git/static/js/2.ff830c0b.chunk.js.map",
-    "index.html": "/rommiel/Travelgram.git/index.html",
-    "precache-manifest.fa336900031794a7ec7946dbcb45cb94.js": "/rommiel/Travelgram.git/precache-manifest.fa336900031794a7ec7946dbcb45cb94.js",
-    "service-worker.js": "/rommiel/Travelgram.git/service-worker.js",
-    "static/css/main.4b5c3934.chunk.css.map": "/rommiel/Travelgram.git/static/css/main.4b5c3934.chunk.css.map",
-    "static/js/2.ff830c0b.chunk.js.LICENSE": "/rommiel/Travelgram.git/static/js/2.ff830c0b.chunk.js.LICENSE"
+    "main.css": "/rommiel/Travelgram/static/css/main.4b5c3934.chunk.css",
+    "main.js": "/rommiel/Travelgram/static/js/main.23595111.chunk.js",
+    "main.js.map": "/rommiel/Travelgram/static/js/main.23595111.chunk.js.map",
+    "runtime-main.js": "/rommiel/Travelgram/static/js/runtime-main.6573a5b8.js",
+    "runtime-main.js.map": "/rommiel/Travelgram/static/js/runtime-main.6573a5b8.js.map",
+    "static/js/2.ff830c0b.chunk.js": "/rommiel/Travelgram/static/js/2.ff830c0b.chunk.js",
+    "static/js/2.ff830c0b.chunk.js.map": "/rommiel/Travelgram/static/js/2.ff830c0b.chunk.js.map",
+    "index.html": "/rommiel/Travelgram/index.html",
+    "precache-manifest.43b3d2c3028551b62b7293eaba7c44b7.js": "/rommiel/Travelgram/precache-manifest.43b3d2c3028551b62b7293eaba7c44b7.js",
+    "service-worker.js": "/rommiel/Travelgram/service-worker.js",
+    "static/css/main.4b5c3934.chunk.css.map": "/rommiel/Travelgram/static/css/main.4b5c3934.chunk.css.map",
+    "static/js/2.ff830c0b.chunk.js.LICENSE": "/rommiel/Travelgram/static/js/2.ff830c0b.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.61bd33fa.js",
+    "static/js/runtime-main.6573a5b8.js",
     "static/js/2.ff830c0b.chunk.js",
     "static/css/main.4b5c3934.chunk.css",
     "static/js/main.23595111.chunk.js"
